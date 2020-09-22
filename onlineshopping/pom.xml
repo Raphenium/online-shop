@@ -6,7 +6,7 @@
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>onlineshopping Maven Webapp</name>
-	<url>http://maven.apache.org</url>
+	<url>https://maven.apache.org</url>
 
 	<!-- Version information will be stored here -->
 	<properties>
@@ -94,7 +94,6 @@
 			<version>${spring.security.version}</version>
 		</dependency>
 	    
-	    
 	</dependencies>
 	<build>
 		<!-- Updated for the latest version of JAVA -->
@@ -107,6 +106,7 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			
 		</plugins>
 
 		<finalName>onlineshopping</finalName>

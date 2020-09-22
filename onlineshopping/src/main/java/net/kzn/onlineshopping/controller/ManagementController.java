@@ -133,15 +133,12 @@ public class ManagementController {
 		return (isActive)? "Product Dectivated Successfully!": "Product Activated Successfully";
 	}
 			
-
 	@RequestMapping(value = "/category", method=RequestMethod.POST)
 	public String managePostCategory(@ModelAttribute("category") Category mCategory, HttpServletRequest request) {					
 		categoryDAO.add(mCategory);		
 		return "redirect:" + request.getHeader("Referer") + "?success=category";
 	}
 			
-	
-	
 	@ModelAttribute("categories") 
 	public List<Category> modelCategories() {
 		return categoryDAO.list();
@@ -151,8 +148,7 @@ public class ManagementController {
 	public Category modelCategory() {
 		return new Category();
 	}
-	
-	
+
 }
 
 	
