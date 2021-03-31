@@ -25,8 +25,8 @@
                         <a href="${contextRoot}/home">PHARMACY</a>
                     </li>
 
-                    <li id="contact">
-                        <a href="${contextRoot}/contact">GROCERY</a>
+                    <li>
+                        <a href="${contextRoot}/home">GROCERY</a>
                     </li>
                     
                     <li id="listProducts">
