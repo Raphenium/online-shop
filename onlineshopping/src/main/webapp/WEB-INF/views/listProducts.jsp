@@ -69,11 +69,11 @@
 						<thead>
 						
 							<tr>
-								<th></th>
+								<th>Logo</th>
 								<th>Name</th>
-								<th>Brand</th>
-								<th>Price</th>
-								<th>Qty. Available</th>
+								<th>City</th>
+								<th>Email</th>
+								<th>Phone Numer</th>
 								<th></th>
 							
 							</tr>
@@ -84,11 +84,11 @@
 						<tfoot>
 						
 							<tr>
-								<th></th>
+								<th>Logo</th>
 								<th>Name</th>
-								<th>Brand</th>
-								<th>Price</th>
-								<th>Qty. Available</th>
+								<th>City</th>
+								<th>Email</th>
+								<th>Phone Numer</th>
 								<th></th>
 							
 							</tr>
